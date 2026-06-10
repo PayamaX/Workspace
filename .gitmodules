@@ -8,3 +8,7 @@
 	url = git@github.com:PayamaX/app.git
 	branch = main
 	ignore = all
+[submodule "api"]
+	path = api
+	url = git@github.com:PayamaX/api.git
+	ignore = all
