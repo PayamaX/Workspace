@@ -2,11 +2,9 @@
 	path = assets
 	url = git@github.com:PayamaX/assets.git
 	branch = main
+	ignore = all
 [submodule "app"]
 	path = app
 	url = git@github.com:PayamaX/app.git
 	branch = main
-[submodule "backend"]
-	path = backend
-	url = git@github.com:PayamaX/backend.git
-	branch = main
+	ignore = all
