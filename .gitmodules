@@ -12,3 +12,11 @@
 	path = api
 	url = git@github.com:PayamaX/api.git
 	ignore = all
+[submodule "services"]
+	path = services
+	url = git@github.com:PayamaX/services.git
+	ignore = all
+[submodule "admin"]
+	path = admin
+	url = git@github.com:PayamaX/admin.git
+	ignore = all
