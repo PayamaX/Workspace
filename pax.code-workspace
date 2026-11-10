@@ -1,9 +1,10 @@
 {
   "folders": [
-    { "name": "api", "path": "./api" },
-    { "name": "admin", "path": "./admin" },
-    { "name": "services", "path": "./services" }
-    { "name": "android", "path": "./app" }
+    { "name": "workspace", "path": "." },
+    { "name": "api", "path": "./api-pax" },
+    { "name": "admin", "path": "./admin-pax" },
+    { "name": "services", "path": "./svc-pax" }
+    { "name": "app", "path": "./app-pax" }
   ],
   "settings": {
     "editor.formatOnSave": true,

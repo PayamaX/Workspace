@@ -5,9 +5,9 @@ param(
 $ErrorActionPreference = "Stop"
 
 $steps = @(
-    "api/docker.ps1",
-    "admin/docker.ps1",
-    "services/recompose.ps1"
+    "pax-api/docker.ps1",
+    "pax-admin/docker.ps1",
+    "pax-services/recompose.ps1"
 )
 
 foreach ($relativePath in $steps) {
