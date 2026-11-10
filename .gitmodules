@@ -1,22 +1,22 @@
 [submodule "assets"]
-	path = pax-assets
+	path = ass-pax
 	url = git@github.com:PayamaX/assets.git
 	branch = main
 	ignore = all
 [submodule "app"]
-	path = pax-app
+	path = app-pax
 	url = git@github.com:PayamaX/app.git
 	branch = main
 	ignore = all
 [submodule "api"]
-	path = pax-api
+	path = api-pax
 	url = git@github.com:PayamaX/api.git
 	ignore = all
 [submodule "services"]
-	path = pax-services
+	path = svc-pax
 	url = git@github.com:PayamaX/services.git
 	ignore = all
 [submodule "admin"]
-	path = pax-admin
+	path = admin-pax
 	url = git@github.com:PayamaX/admin.git
 	ignore = all
