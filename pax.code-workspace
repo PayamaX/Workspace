@@ -1,9 +1,9 @@
 {
   "folders": [
-    { "name": "workspace", "path": "." },
+    { "name": "PayamaX", "path": "." },
     { "name": "api", "path": "./api-pax" },
     { "name": "admin", "path": "./admin-pax" },
-    { "name": "svc", "path": "./svc-pax" }
+    { "name": "svc", "path": "./svc-pax" },
     { "name": "app", "path": "./app-pax" }
   ],
   "settings": {
