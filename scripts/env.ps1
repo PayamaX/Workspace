@@ -1,4 +1,4 @@
-# Load +env and .secrets, walking up from -Repo. Existing environment variables are left unchanged.
+# Load +env, walking up from -Repo. Existing environment variables are left unchanged.
 param(
     [string]$Repo = (Get-Location).Path
 )
@@ -12,7 +12,7 @@ function Find-UpFile {
     $dir = $Start
     while ($dir) {
         $candidate = Join-Path $dir $Name
-        if (Test-Path -LiteralPath $candidate) {
+        if (Test-Path -LiteralPath $candidate -PathType Leaf) {
             return $candidate
         }
 
@@ -66,12 +66,4 @@ if (-not $envFile) {
     throw "+env was not found in $Repo or any parent directory."
 }
 
-$secretFile = Find-UpFile -Start $Repo -Name ".secrets"
-if (-not $secretFile) {
-    throw ".secrets was not found in $Repo or any parent directory."
-}
-
-$names = @()
-$names += Import-EnvFile -Path $envFile
-$names += Import-EnvFile -Path $secretFile
-$names
+Import-EnvFile -Path $envFile
