@@ -14,6 +14,7 @@ PAX_FILES_PUB_URL=https://pax-sw-s3:8333
 PAX_API_URL=https://api:8080
 PAX_ADMIN_URL=https://admin:8080
 PAX_IMAGES_SUFFIX=dev
+PAX_NGINX_SSL=false
 PAX_JDK_VER=25-jdk
 PAX_JRE_VER=25-jre
 PAX_ND_VER=24-slim
