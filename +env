@@ -10,7 +10,6 @@ PAX_KC_EG_VER=23.0
 PAX_SW_EG_VER=4.38
 PAX_OS_EG_URL=["https://oseg:9200"]
 PAX_AUTH_REALM_URL=https://auth.pax.no1.ir/realms/pax
-PAX_FILES_PUB_URL=https://pax-sw-s3:8333
 PAX_API_URL=https://api:8080
 PAX_ADMIN_URL=https://admin:8080
 PAX_IMAGES_SUFFIX=dev
